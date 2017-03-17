@@ -1,7 +1,0 @@
-rexpr->[rtermrexpr']
-rterm->[rfactorrterm']
-rfactor->[rprimaryrfactor']
-rprimary->[a, b]
-rexpr'->[Urtermrexpr', !]
-rterm'->[rfactorrterm', !]
-rfactor'->[*rfactor', !]
