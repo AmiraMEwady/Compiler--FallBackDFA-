@@ -1,0 +1,27 @@
+#set of states
+9137,8,247,68,58,7
+#alphabet
+a,b
+#transitions
+9137,a,247
+9137,b,8
+8,b,8
+247,a,7
+247,b,58
+7,a,7
+7,b,8
+58,b,68
+68,b,8
+#start state
+9137
+#set of accept states
+247,58,68,8
+#label
+247,a
+58,a*b+
+68,abb
+8,a*b+
+#regulardefinition
+2,a
+6,abb
+8,a*b+
